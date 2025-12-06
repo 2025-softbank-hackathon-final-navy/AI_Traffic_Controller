@@ -1,0 +1,25 @@
+# AI Traffic Controller - Execution Server
+# Prewarm Controller + EPLB V2
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# Redis
+redis>=5.0.0
+
+# PyTorch (EPLB 의존)
+torch>=2.0.0
+
+# K8s Client (선택적)
+kubernetes>=28.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
+
